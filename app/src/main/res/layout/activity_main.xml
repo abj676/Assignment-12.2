@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/info_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Information"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name"
+        android:textSize="16sp"
+        android:textColorHint="#888"
+        android:layout_below="@id/info_txt"
+        android:padding="10dp"
+        />
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Age"
+        android:textSize="16sp"
+        android:textColorHint="#888"
+        android:layout_below="@id/name"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone"
+        android:textSize="16sp"
+        android:textColorHint="#888"
+        android:layout_below="@id/age"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        />
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter City"
+        android:textSize="16sp"
+        android:textColorHint="#888"
+        android:layout_below="@id/phone"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:gravity="center"
+        android:layout_below="@id/city"
+        android:textSize="16sp"
+        android:background="@color/colorAccent"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/show"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:gravity="center"
+        android:layout_below="@id/save"
+        android:textSize="16sp"
+        android:background="@color/colorAccent"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
